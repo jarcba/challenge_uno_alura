@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+		<title>challenge 1</title>
+	</head>
+	<body>
+		<header>
+			<img src="imagenes/Logo.png" alt="logo de alura" class="logo">
+			<h1 class="titulo">Encriptador de Mensaje</h1>
+		</header>
+		<main>
+			<section>
+				<textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+				<div>
+					<h6 class="informacion">Solo letras minusculas y sin acentos</h6>
+				</div>
+				<div class="botones"></div>
+				<button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+				<button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+			</section>
+			<section>
+				<img class="muñeco" src="imagenes/Muñeco.png">
+				<textarea class="text-mensaje" cols="20" rows="10" placeholder="texto a encriptar o desencriptar"></textarea>
+				<div>
+					<button class="btn-copiar">Copiar</button>
+				</div>
+			</section>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
